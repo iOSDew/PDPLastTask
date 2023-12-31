@@ -6,3 +6,13 @@
 //
 
 import Foundation
+import UIKit
+
+class Post{
+    var contentImage: UIImage?
+    var label: String? = ""
+    init(contentImage: UIImage? = nil, label: String? = nil) {
+        self.contentImage = contentImage
+        self.label = label
+    }
+}
